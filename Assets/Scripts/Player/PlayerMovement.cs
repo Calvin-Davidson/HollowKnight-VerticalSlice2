@@ -25,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
     {
         int horizontalInput = (int) Input.GetAxisRaw("Horizontal");
         int verticalInput = (int) Input.GetAxisRaw("Vertical");
+        if (Input.GetKeyDown(KeyCode.Space)) verticalInput = 1;
 
         if (verticalInput == 0)
         {
