@@ -18,20 +18,7 @@ public class PlayerData : MonoBehaviour
     {
         _currentPlayerHealth = maxPlayerHealth;
     }
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            TakeDamage();
-        }
-
-        if (Input.GetKeyDown(KeyCode.G))
-        {
-            ReceiveHealth();
-        }
-    }
-
+    
     public void TakeDamage()
     {
         _currentPlayerHealth -= 1;
