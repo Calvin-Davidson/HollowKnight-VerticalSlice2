@@ -10,3 +10,6 @@ mijn groepje heeft gekozen voor de game hollow knight.
 # Images
 Background:
 ![alt text](https://github.com/Calvin-Davidson/HollowKnight-VerticalSlice2/blob/main/Assets/Images/result.png?raw=true)
+
+Hollow knight character sheet
+![alt text](https://github.com/Calvin-Davidson/HollowKnight-VerticalSlice2/blob/main/Assets/Sprites/Player/HollowKnightPlayer.png?raw=true)
