@@ -20,7 +20,7 @@ public class FollowPlayer : MonoBehaviour
     {
         Vector3 cameraNewPosition = _playerTransform.position;
         cameraNewPosition.y += 1;
-        cameraNewPosition.z = -10;
+        cameraNewPosition.z = -20;
         transform.position = cameraNewPosition;
     }
 }
