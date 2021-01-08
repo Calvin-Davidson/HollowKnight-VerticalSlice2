@@ -8,4 +8,5 @@ mijn groepje heeft gekozen voor de game hollow knight.
   - trello: https://trello.com/b/i2LDHKPC/hollowknight
   
 # Images
-Non yet
+Background:
+![alt text](https://github.com/Calvin-Davidson/HollowKnight-VerticalSlice2/blob/main/Assets/Images/result.png?raw=true)
