@@ -15,13 +15,13 @@ public class PlayerGravity : MonoBehaviour
         _rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (_rigidbody2D.velocity.y < 0)
         {
             _rigidbody2D.velocity += Vector2.up * (Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime);
-        } else if (_rigidbody2D.velocity.y > 0 && !Input.GetKey(KeyCode.Space))
+        }
+        else if (_rigidbody2D.velocity.y > 0 && !Input.GetKey(KeyCode.Space))
         {
             _rigidbody2D.velocity += Vector2.up * (Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime);
         }
