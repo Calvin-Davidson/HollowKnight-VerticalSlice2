@@ -11,6 +11,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private new Rigidbody2D rigidbody2D;
 
+    [SerializeField] private float inAirJumpTimer;
+    [SerializeField] private AudioSource walkingAudio;
+    
     private Transform _transform;
     private PlayerInAir _playerInAir;
 
@@ -23,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
     {
         _transform = GetComponent<Transform>();
         _playerInAir = GetComponent<PlayerInAir>();
+        walkingAudio.loop = true;
     }
 
     void Update()
@@ -31,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
         int verticalInput = (int) Input.GetAxisRaw("Vertical");
         if (Input.GetKeyDown(KeyCode.Space)) verticalInput = 1;
 
-        if (verticalInput == 0 || _playerInAir.IsInAir())
+        if (verticalInput == 0 || (_playerInAir.IsInAir() && inAirJumpTimer <= _playerInAir.GetInAirFor())) 
         {
             float currentY = rigidbody2D.velocity.y;
             rigidbody2D.velocity = new Vector2(movementSpeed * horizontalInput, currentY);
@@ -43,6 +47,14 @@ public class PlayerMovement : MonoBehaviour
 
         RotatePlayer(horizontalInput);
         UpdateAnimator(horizontalInput, verticalInput);
+        if (!_playerInAir.IsInAir() && horizontalInput != 0) 
+        {
+            PlayWalkingAudio();
+        }
+        else
+        {
+            StopWalkingSound();
+        }
     }
 
 
@@ -67,5 +79,16 @@ public class PlayerMovement : MonoBehaviour
     {
         animator.SetInteger(Horizontal, horizontalInput);
         animator.SetInteger(Vertical, verticalInput);
+    }
+
+    private void PlayWalkingAudio()
+    {
+        if (walkingAudio.isPlaying) return;
+        walkingAudio.Play();
+    }
+
+    private void StopWalkingSound()
+    {
+        walkingAudio.Stop();
     }
 }

@@ -7,9 +7,14 @@ public class PlayerInAir : MonoBehaviour
 {
     [SerializeField] private Animator animator;
     [SerializeField] private bool isInAir;
-    
+    private float _inAirFor;
     
     private static readonly int InAir = Animator.StringToHash("inAir");
+
+    private void Update()
+    {
+        if (isInAir) _inAirFor += Time.deltaTime;
+    }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
@@ -18,6 +23,8 @@ public class PlayerInAir : MonoBehaviour
             isInAir = false;
             animator.SetBool(InAir, false);
         }
+
+        _inAirFor = 0f;
     }
 
     private void OnCollisionExit2D(Collision2D other)
@@ -33,5 +40,13 @@ public class PlayerInAir : MonoBehaviour
     public bool IsInAir()
     {
         return this.isInAir;
+    }
+
+    /**
+     * returns how long the player was in air.
+     */
+    public float GetInAirFor()
+    {
+        return _inAirFor;
     }
 }
