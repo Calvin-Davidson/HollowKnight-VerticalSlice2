@@ -15,6 +15,8 @@ public class AttackAnimation : MonoBehaviour
     [SerializeField] private bool shrinkY = true;
     [SerializeField] private bool shrinkZ = true;
 
+    [SerializeField] private bool destoryParent;
+
     private Transform _transform;
     // Start is called before the first frame update
 
@@ -57,7 +59,11 @@ public class AttackAnimation : MonoBehaviour
             currentScale.z -= shrinkMultiplier * Time.deltaTime;
         }
 
-        if (beginScale.x < 0.2 || beginScale.y < 0.2 || beginScale.z < 0.2) Destroy(gameObject);
+        if (beginScale.x < 0.2 || beginScale.y < 0.2 || beginScale.z < 0.2)
+        {
+            Destroy(gameObject);
+            if (destoryParent) Destroy(gameObject.transform.parent.gameObject);
+        }
         _transform.localScale = currentScale;
     }
 }
