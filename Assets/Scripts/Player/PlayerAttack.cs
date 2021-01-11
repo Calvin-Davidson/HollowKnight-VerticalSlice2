@@ -59,5 +59,9 @@ public class PlayerAttack : MonoBehaviour
 
             _cameraAudio.PlayPlayerAttackAudio();
         }
+        else
+        {
+            animator.SetBool(Attacking, false);
+        }
     }
 }
