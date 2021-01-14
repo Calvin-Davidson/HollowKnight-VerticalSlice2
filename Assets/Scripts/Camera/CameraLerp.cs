@@ -8,11 +8,12 @@ public class CameraLerp : MonoBehaviour
     Vector3 desiredPosition;
     Vector3 smoothedPosition;
     [SerializeField] Transform player;
-    [SerializeField] CameraBounds2D bounds;
+    CameraBounds2D bounds;
     [SerializeField] public CameraBounds2D bounds1;
     [SerializeField] public CameraBounds2D bounds2;
     [SerializeField] float speed = 3;
     [SerializeField] private float desiredZposition;
+    
     Vector2 maxXPositions,maxYPositions;
     // Start is called before the first frame update
     void Awake()
