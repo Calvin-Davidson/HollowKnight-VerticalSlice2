@@ -1,18 +1,29 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+//using UnityEngine.Animator;
 using UnityEngine;
 
 public class Goam : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public Animator animator;
+
+
     void Start()
     {
-        
+        StartCoroutine("GoamActivity");
     }
 
-    // Update is called once per frame
-    void Update()
+    IEnumerator GoamActivity()
     {
-        
+        //Animation Active
+        Debug.Log("On");
+        animator.SetBool("isActive", true);
+        yield return new WaitForSeconds(2f);
+        //Animation Not Active
+        Debug.Log("Off");
+        animator.SetBool("isActive", false);
+        yield return new WaitForSeconds(2f);
+        StartCoroutine("GoamActivity");
     }
+
 }
