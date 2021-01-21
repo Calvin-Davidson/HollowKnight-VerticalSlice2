@@ -28,6 +28,7 @@ public class PlayerData : MonoBehaviour
         {
             onPlayerDieEvent.Invoke();
         }
+        
     }
 
     public void ReceiveHealth()
