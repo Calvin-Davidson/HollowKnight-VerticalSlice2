@@ -5,10 +5,11 @@ using Pathfinding;
 
 public class EnemyAI : MonoBehaviour
 {
-    [SerializeField] Transform target;
+    GameObject player;
+    Transform target;
     [SerializeField] float speed = 200f;
     [SerializeField] float nextWaypointDistance = 3f;
-    [SerializeField] Collider2D player;
+    Collider2D playercol;
     [SerializeField] Collider2D Enemy;
     [SerializeField]Animator animator;
 
@@ -28,8 +29,11 @@ public class EnemyAI : MonoBehaviour
 
         InvokeRepeating("UpdatePath", 0f, .5f);
         
-        Physics2D.IgnoreCollision(player, Enemy);
-        
+        player = GameObject.FindGameObjectWithTag("Player");
+        target = player.transform;   
+        playercol = player.GetComponentInChildren<Collider2D>();
+
+        Physics2D.IgnoreCollision(playercol, Enemy);    
     }
 
 
@@ -81,7 +85,6 @@ public class EnemyAI : MonoBehaviour
         else if(rb.velocity.x <= -0.1f)
         {
             
-
             enemyGFX.localScale = new Vector3(3f, 3f, 3f);
         }
         

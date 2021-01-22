@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class EnemyDamage : MonoBehaviour
 {
-    [SerializeField] PlayerData playerData;
+    GameObject player;
+    PlayerData playerData;
+    
     // Start is called before the first frame update
     void Start()
     {
-        
+        player = GameObject.FindGameObjectWithTag("Player");
+        playerData = player.GetComponentInChildren<PlayerData>();
     }
 
     // Update is called once per frame
