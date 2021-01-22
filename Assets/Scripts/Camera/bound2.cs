@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class bound2 : MonoBehaviour
 {
-    [SerializeField] CameraLerp camera;
+    [SerializeField] new CameraLerp camera;
     // Start is called before the first frame update
     void Start()
     {

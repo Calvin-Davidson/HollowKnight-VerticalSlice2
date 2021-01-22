@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class bound1 : MonoBehaviour
 {
-    [SerializeField] CameraLerp camera;
+    [SerializeField] new CameraLerp camera;
 
     void OnTriggerEnter2D(Collider2D other)
     {
