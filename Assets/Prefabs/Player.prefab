@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 1728565655275042776}
   - component: {fileID: 1728565655275042777}
   - component: {fileID: 1728565655275042778}
+  - component: {fileID: 3250923616968500436}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -32,7 +33,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1728565655275042769}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -87.81, y: -15.82, z: -1}
+  m_LocalPosition: {x: -87.81, y: -15.82, z: -0.55}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children:
   - {fileID: 1728565656413946675}
@@ -159,9 +160,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 12
-  jumpHeight: 15
+  jumpHeight: 14
   animator: {fileID: 1728565655275042770}
   rigidbody2D: {fileID: 1728565655275042775}
+  inAirJumpTimer: 0.2
+  walkingAudio: {fileID: 0}
 --- !u!114 &1728565655275042776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,6 +178,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1728565655275042770}
+  attackParticleObjectLeft:
+  - {fileID: 9093349479779257214, guid: 3462fbbb9d5e2614c9d56ffc920f8142, type: 3}
+  attackParticleObjectRight:
+  - {fileID: 5740185738509946677, guid: e1b91595a5e15c44ca9cc1659fb89131, type: 3}
+  attackDelay: 0
 --- !u!114 &1728565655275042777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,6 +219,20 @@ MonoBehaviour:
   onPlayerDieEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &3250923616968500436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728565655275042769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e684a813b44ffc44832ab500ef5b722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fallMultiplier: 4
+  lowJumpMultiplier: 2
 --- !u!1 &1728565656413946674
 GameObject:
   m_ObjectHideFlags: 0
@@ -255,7 +277,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 0.8392157, g: 1, b: 0.9377778, a: 1}
   m_Intensity: 168.12
-  m_Range: 10
+  m_Range: 100
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10

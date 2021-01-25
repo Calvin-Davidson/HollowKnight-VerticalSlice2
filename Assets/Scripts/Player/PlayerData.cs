@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class PlayerData : MonoBehaviour
 {
@@ -27,6 +28,8 @@ public class PlayerData : MonoBehaviour
         if (_currentPlayerHealth.Equals(0))
         {
             onPlayerDieEvent.Invoke();
+
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
         
     }
