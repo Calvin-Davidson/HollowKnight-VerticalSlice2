@@ -33,7 +33,8 @@ public class EnemyAI : MonoBehaviour
         target = player.transform;   
         playercol = player.GetComponentInChildren<Collider2D>();
 
-        Physics2D.IgnoreCollision(playercol, Enemy);    
+        Physics2D.IgnoreCollision(playercol, Enemy);  
+          
     }
 
 
