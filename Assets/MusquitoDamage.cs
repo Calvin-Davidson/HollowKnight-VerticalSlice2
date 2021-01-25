@@ -9,7 +9,6 @@ public class MusquitoDamage : MonoBehaviour
     [SerializeField] float damageDelay;
     private float delay;
 
-
     void Update()
     {
         delay += Time.deltaTime;
@@ -24,7 +23,7 @@ public class MusquitoDamage : MonoBehaviour
                 Debug.Log("Current Health: " + health);
                 if(health < 1)
                 {
-                    Destroy(this.gameObject);
+                    Destroy(transform.parent.gameObject);
                 }
                 delay = 0;
             } 

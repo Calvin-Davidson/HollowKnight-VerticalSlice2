@@ -43,7 +43,7 @@ public class CameraLerp : MonoBehaviour
          
          
          desiredPosition = new Vector3(Mathf.Clamp(player.position.x, maxXPositions.x, maxXPositions.y), Mathf.Clamp(player.position.y, maxYPositions.x, maxYPositions.y), desiredPosition.z);
-         
+
          smoothedPosition = Vector3.Lerp (transform.position, desiredPosition, Time.deltaTime*speed);
          transform.position = smoothedPosition;
     }
