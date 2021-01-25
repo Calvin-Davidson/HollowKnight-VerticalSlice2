@@ -31,6 +31,7 @@ public class PlayerData : MonoBehaviour
 
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
+        
     }
 
     public void ReceiveHealth()
