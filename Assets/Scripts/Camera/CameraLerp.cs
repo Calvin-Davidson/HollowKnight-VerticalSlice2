@@ -35,15 +35,9 @@ public class CameraLerp : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        
-        // transform.position = new Vector3(0,newY,-8);
-        
-         
          desiredPosition.z = desiredZposition;
-         
-         
-         desiredPosition = new Vector3(Mathf.Clamp(player.position.x, maxXPositions.x, maxXPositions.y), Mathf.Clamp(player.position.y, maxYPositions.x, maxYPositions.y), desiredPosition.z);
-         
+         desiredPosition = new Vector3(Mathf.Clamp(player.position.x, maxXPositions.x, maxXPositions.y), 
+         Mathf.Clamp(player.position.y, maxYPositions.x, maxYPositions.y), desiredPosition.z);
          smoothedPosition = Vector3.Lerp (transform.position, desiredPosition, Time.deltaTime*speed);
          transform.position = smoothedPosition;
     }

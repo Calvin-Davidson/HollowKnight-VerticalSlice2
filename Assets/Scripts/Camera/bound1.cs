@@ -8,7 +8,6 @@ public class bound1 : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        // Debug.Log("1");
         camera.changeBound(camera.bounds1);
     }
 }
