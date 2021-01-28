@@ -7,6 +7,9 @@ using UnityEngine;
 public class PlayerRegeneration : MonoBehaviour
 {
     [SerializeField] private float regenerationTimeout = 1f;
+    [SerializeField] private GameObject regenerationObject;
+    private SpriteRenderer[] _regenSprites;
+    
     private float _regenTimeout = 0f;
     
     private PlayerData _playerData;
@@ -23,6 +26,9 @@ public class PlayerRegeneration : MonoBehaviour
         _playerMovement = GetComponent<PlayerMovement>();
         _playerInAir = GetComponent<PlayerInAir>();
         _animator = GetComponent<Animator>();
+
+        _regenSprites = regenerationObject.GetComponentsInChildren<SpriteRenderer>();
+        for (int i = 0; i < _regenSprites.Length; i++) _regenSprites[i].enabled = false;
     }
 
     private void Update()
@@ -36,6 +42,7 @@ public class PlayerRegeneration : MonoBehaviour
             {
                 _playerMovement.enabled = false;       
                 _animator.SetBool(Regenerating, true);
+                for (int i = 0; i < _regenSprites.Length; i++) _regenSprites[i].enabled = true;
             }
             else
             {
@@ -44,6 +51,8 @@ public class PlayerRegeneration : MonoBehaviour
                 _playerData.ReceiveHealth();
                 _animator.SetBool(Regenerating, false);
                 _regenTimeout = 0f;
+                for (int i = 0; i < _regenSprites.Length; i++) _regenSprites[i].enabled = false;
+
             }
         }
         else

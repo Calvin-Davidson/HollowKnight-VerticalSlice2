@@ -1,0 +1,1138 @@
+fileFormatVersion: 2
+guid: f4e0bd43e2503d540a6834621d83f61d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8431778089798049475
+    second: _ieParticle_0
+  - first:
+      213: -8773365783511681710
+    second: _ieParticle_1
+  - first:
+      213: -5088214266114753842
+    second: _ieParticle_2
+  - first:
+      213: -8198354963802238811
+    second: _ieParticle_3
+  - first:
+      213: -3730147914354380896
+    second: _ieParticle_4
+  - first:
+      213: -6942534144286546198
+    second: _ieParticle_5
+  - first:
+      213: -4251880313246540171
+    second: _ieParticle_6
+  - first:
+      213: -5048739051371304693
+    second: _ieParticle_7
+  - first:
+      213: 4265883183173810880
+    second: _ieParticle_8
+  - first:
+      213: -6480670391935660665
+    second: _ieParticle_9
+  - first:
+      213: 2048972781214378811
+    second: _ieParticle_10
+  - first:
+      213: -1939196138970865069
+    second: _ieParticle_11
+  - first:
+      213: -1469874220757965690
+    second: _ieParticle_12
+  - first:
+      213: -5131886623363174824
+    second: _ieParticle_13
+  - first:
+      213: -7070516354492331972
+    second: _ieParticle_14
+  - first:
+      213: -8964805250756685479
+    second: _ieParticle_15
+  - first:
+      213: 6684788313945208565
+    second: _ieParticle_16
+  - first:
+      213: 160741616340879566
+    second: _ieParticle_17
+  - first:
+      213: -6267949119022435634
+    second: _ieParticle_18
+  - first:
+      213: 79550219591541354
+    second: _ieParticle_19
+  - first:
+      213: 1042611055385447079
+    second: _ieParticle_20
+  - first:
+      213: -1650700128985635149
+    second: _ieParticle_21
+  - first:
+      213: -6417173216862208867
+    second: _ieParticle_22
+  - first:
+      213: -1400809875375116804
+    second: _ieParticle_23
+  - first:
+      213: 850150256508925084
+    second: _ieParticle_24
+  - first:
+      213: -4022285231492377606
+    second: _ieParticle_25
+  - first:
+      213: -4779415448161542272
+    second: _ieParticle_26
+  - first:
+      213: -3935463811418294015
+    second: _ieParticle_27
+  - first:
+      213: 9120384175007381477
+    second: _ieParticle_28
+  - first:
+      213: -7125204460791438547
+    second: _ieParticle_29
+  - first:
+      213: -5884676877386620271
+    second: _ieParticle_30
+  - first:
+      213: 7923184700554215263
+    second: _ieParticle_31
+  - first:
+      213: 3168305198691826867
+    second: _ieParticle_32
+  - first:
+      213: 8386974659837011566
+    second: _ieParticle_33
+  - first:
+      213: 3325228044137037482
+    second: _ieParticle_34
+  - first:
+      213: 8873260316932977626
+    second: _ieParticle_35
+  - first:
+      213: 2439909934951257618
+    second: _ieParticle_36
+  - first:
+      213: 5729627598406470667
+    second: _ieParticle_37
+  - first:
+      213: -96685382061993809
+    second: _ieParticle_38
+  - first:
+      213: 3890413689879265934
+    second: _ieParticle_39
+  - first:
+      213: 310780749576634987
+    second: _ieParticle_40
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: _ieParticle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 465
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d316aa4308e4cfa80800000000000000
+      internalID: -8431778089798049475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 468
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255383d9d4ebe3680800000000000000
+      internalID: -8773365783511681710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 445
+        width: 143
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecab72f55180369b0800000000000000
+      internalID: -5088214266114753842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_3
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 460
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0d100e897993e80800000000000000
+      internalID: -8198354963802238811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_4
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 430
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af2e3d2c3adb3cc0800000000000000
+      internalID: -3730147914354380896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_5
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 428
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6a7c89af927af90800000000000000
+      internalID: -6942534144286546198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_6
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 428
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e967de1694ef4c0800000000000000
+      internalID: -4251880313246540171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_7
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 411
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09ee5705964fe9b0800000000000000
+      internalID: -5048739051371304693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_8
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 310
+        width: 127
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca336a4726733b30800000000000000
+      internalID: 4265883183173810880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_9
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 294
+        width: 92
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d88465d980016a0800000000000000
+      internalID: -6480670391935660665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_10
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 400
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b2aba73e96f6c10800000000000000
+      internalID: 2048972781214378811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_11
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 394
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35225dac2679615e0800000000000000
+      internalID: -1939196138970865069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684a7371f25f99be0800000000000000
+      internalID: -1469874220757965690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_13
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 366
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85eebd25e40e7c8b0800000000000000
+      internalID: -5131886623363174824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_14
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 346
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3805e736da70ed90800000000000000
+      internalID: -7070516354492331972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_15
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 329
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951571c3f1d969380800000000000000
+      internalID: -8964805250756685479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_16
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 314
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6f263dd8325cc50800000000000000
+      internalID: 6684788313945208565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_17
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 310
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8ce9ef5a11b3200800000000000000
+      internalID: 160741616340879566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 231
+        width: 95
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2f17a3c75c309a0800000000000000
+      internalID: -6267949119022435634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_19
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 266
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62ee84d08e9a1100800000000000000
+      internalID: 79550219591541354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_20
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 274
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa052b1b39187e00800000000000000
+      internalID: 1042611055385447079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_21
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 156
+        width: 172
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6ae1d7af88719e0800000000000000
+      internalID: -1650700128985635149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_22
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 248
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9cf6ca75fe91f6a0800000000000000
+      internalID: -6417173216862208867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_23
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 114
+        width: 108
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd286417d25f8ce0800000000000000
+      internalID: -1400809875375116804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_24
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 264
+        width: 45
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94fbec67275ccb00800000000000000
+      internalID: 850150256508925084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 220
+        width: 38
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3d89794e8fd28c0800000000000000
+      internalID: -4022285231492377606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_26
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 220
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f115ae8fa1cadb0800000000000000
+      internalID: -4779415448161542272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_27
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 224
+        width: 57
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109f106b38c6269c0800000000000000
+      internalID: -3935463811418294015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_28
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 192
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7b866d51d129e70800000000000000
+      internalID: 9120384175007381477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_29
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 172
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d236f7a3b403e1d90800000000000000
+      internalID: -7125204460791438547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_30
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 156
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1926a61fe8d655ea0800000000000000
+      internalID: -5884676877386620271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_31
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 130
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ff75e918ec4fd60800000000000000
+      internalID: 7923184700554215263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_32
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 104
+        width: 57
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bcbc04bac418fb20800000000000000
+      internalID: 3168305198691826867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_33
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 107
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66a9cb5405846470800000000000000
+      internalID: 8386974659837011566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_34
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 103
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae74ffc945952e20800000000000000
+      internalID: 3325228044137037482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_35
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 207
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad33c56ee37242b70800000000000000
+      internalID: 8873260316932977626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21657bc982d4cd120800000000000000
+      internalID: 2439909934951257618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_37
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 51
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cca42a1f9b38f40800000000000000
+      internalID: 5729627598406470667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_38
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 31
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0d833482188aef0800000000000000
+      internalID: -96685382061993809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_39
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 13
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82029e73a68df530800000000000000
+      internalID: 3890413689879265934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _ieParticle_40
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 3
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b628b85f17d105400800000000000000
+      internalID: 310780749576634987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

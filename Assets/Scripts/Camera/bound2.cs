@@ -19,6 +19,7 @@ public class bound2 : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         // Debug.Log("2");
-        camera.changeBound(camera.bounds2);
+        if (other.gameObject.tag.Equals("Player"))
+            camera.changeBound(camera.bounds2);
     }
 }

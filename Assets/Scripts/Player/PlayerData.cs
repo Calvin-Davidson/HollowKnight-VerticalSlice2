@@ -29,8 +29,10 @@ public class PlayerData : MonoBehaviour
         {
             onPlayerDieEvent.Invoke();
 
+            Time.timeScale = 1f;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
+        
     }
 
     public void ReceiveHealth()
